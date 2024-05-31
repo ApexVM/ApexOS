@@ -18,6 +18,11 @@ If you want to try ApexOS in **VM** environment, you need to run installer in VM
 
 **WARNING: Containers ARE NOT VMs, running VM mode in Proot or Chroot will cause the system to break or even unwanted changes to your host system! Please DO NOT run VM mode in Chroot, Proot and your real devices. ApexOS installer detects if your system runs on Proot, Chroot, real device or VM.**
 
+### Installing ApexOS on containers (Proot, Chroot)
+Currently you can install ApexOS on any container as if it was our instance. ApexOS installer edits some system files so if your VPS provider can see logs, you better don't install it.
+
+**WARNING: We are not responsible for any data loss, account ban etc by using ApexOS on containers, this also includes other projects (Apex Minecraft server) and bypassing system security.**
+
 ### Installing packages
 To install packages on Debian or Ubuntu we use APT right? Yes, we use APT.
 
