@@ -7,4 +7,7 @@ OS_BIN_DIR=/usr/local/
 echo "[WARN] This will flash ApexOS to your device."
 echo "Waiting 5 seconds before continuing..."
 sleep 5
+clear
+echo "Installing to $OS_BIN_DIR"
+wget 
 # I need to get all scripts and test them :3
