@@ -29,8 +29,7 @@ int main(int argc, char *argv[]) {
         }
     } else if (strcmp(argv[1], "--flash") == 0) {
         cout << "Flashing: " << argv[2] << endl;
-        string flashCommand = "dpkg -i " + string(argv[2]);
-        system("apt --fix-broken install");
+        string flashCommand = "apt install ./" + string(argv[2]);
         int result = system(flashCommand.c_str());
         if (result == 0) {
             cout << "Flash successful!" << endl;
