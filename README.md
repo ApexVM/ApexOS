@@ -44,5 +44,49 @@ This command flashes the package.deb to your system.
 
 **WARNING: Flashing untrusted packages may render your system unstable or you may install viruses! Please verify source of package. (however Linux doesn't have malware...)**
 
+### Using desktop environments
+You can use ApexOS with your favourite Linux WM and desktops. First please keep in mind that some desktops will not work under certain environments. For example in PRoot GNOME may not work. 
+
+To install WM and your desktop environment, you can do it in two ways.
+
+**First way**
+
+Install your desktop environment with vpkg
+
+Example command:
+```
+sudo vpkg install xfce4
+```
+This will install XFCE4 to your system.
+
+**IF YOU INSTALLED APEXOS INSIDE UBUNTU SYSTEM USE THIS**
+```
+sudo vpkg install xubuntu-desktop
+```
+
+### Using web browsers, streaming apps etc.
+We've created special CDN for web browsers in ApexOS due to system restrictions starting from Ubuntu 20.04 (SnapD isn't working inside container environment).
+
+To install your favourite web browser use this command
+```
+avmservice --config browser
+```
+**WARNING: This command will download all browser debian packages from our CDN, you have to manually flash them to your system with vpkg later**
+
+To manually install a package inside ApexOS you might wanna use vpkg
+```
+sudo vpkg flash chromium.deb
+```
+This example shows how to flash latest chromium package downloaded using **avmservice**
+
+### Using SpiceVM's apps
+**WARNING: Using those apps may render your system unstable. I recommend using ONLY avmservice as it is my own tool. Neither avm isn't supported and we won't add support for those apps.**
+
+To use SpiceVM (or ApexVM) apps, you have to enable certain modules, edit system files and vpkg code, flash modules into your system, install packages to support SpiceVM kernel...
+
+Eh, tell me why do you need it? Please, do not use them... For your safety...
+
+***I'll port avmservice tools for ApexOS to another standalone app to provide secure experience to all users***
+
 ### Contributing
 Please ask staff on Apex VM discord or telegram please. I'm only here to create this system and provide support :)
