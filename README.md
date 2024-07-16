@@ -30,15 +30,15 @@ In ApexOS, we created "vpkg" (which stands for virtual package manager) that all
 
 Examples:
 ```
-vpkg --install package
+vpkg install package
 ```
 It will install the package to your system
 ```
-vpkg --remove package
+vpkg remove package
 ```
 It will remove the package from your system
 ```
-vpkg --flash package.deb
+vpkg flash package.deb
 ```
 This command flashes the package.deb to your system. 
 
