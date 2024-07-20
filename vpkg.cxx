@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
             cerr << "Flash failed!" << endl;
         }
     }
-        else if (strcmp(argv[1], "update") == 0) {
+        else if ("update") == 0) {
         cout << "Updating packages listing" << endl;
         string flashCommand = "apt update";
         int result = system(flashCommand.c_str());
@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
             cerr << "Update failed!" << endl;
         }
     }
-        else if (strcmp(argv[1], "upgrade") == 0) {
+        else if ("upgrade") == 0) {
         cout << "Upgrading packages" << endl;
         string flashCommand = "apt upgrade -y";
         int result = system(flashCommand.c_str());
@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
             cerr << "Upgrade failed!" << endl;
         }
     }
-        else if (strcmp(argv[1], "osupdate") == 0) {
+        else if ("osupdate") == 0) {
         cout << "Flashing: " << argv[2] << endl;
         string flashCommand = "apt dist-upgrade";
         int result = system(flashCommand.c_str());
