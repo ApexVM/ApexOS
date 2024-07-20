@@ -12,11 +12,15 @@ clear
 sudo mkdir /usr/local/etc/apexos/oldos/
 echo "Installing to $OS_BIN_DIR"
 wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/vpkg.cxx
-wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/os.properties
-sudo mv /etc/os-properties /usr/local/etc/apexos/oldos/osprops
+wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/os-release
+sudo mv /etc/os-release /usr/local/etc/apexos/oldos/osprops
+sudo mv /etc/lsb-release /usr/local/etc/apexos/oldos/lsbres
 g++ vpkg.cxx -o vpkg
 sudo mv vpkg /usr/local/bin/ && sudo chmod 777 /usr/local/bin/vpkg
-sudo mv os.properties /etc/os-properties
+sudo mv os-release /etc/os-release
+sudo mv lsb-release /etc/lsb-release
 clear
 echo "The base instalation is done"
+echo "You can install packages with vpkg"
+echo "Welcome to ApexOS 24.07"
 # I need to get all scripts and test them :3
