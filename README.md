@@ -79,6 +79,8 @@ sudo vpkg flash chromium.deb
 ```
 This example shows how to flash latest chromium package downloaded using **avmservice**
 
+**WARNING: ApexVM Runtime Environment is discontinued as from ApexOS 24.07. Please do not use it.**
+
 ### Using SpiceVM's apps
 **WARNING: Using those apps may render your system unstable. I recommend using ONLY avmservice as it is my own tool. Neither avm isn't supported and we won't add support for those apps.**
 
