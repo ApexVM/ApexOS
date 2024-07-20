@@ -1,11 +1,9 @@
 NAME=ApexOS
-VERSION="2024 (Development Edition)"
+VERSION="24.07 LTS"
 ID=apexos
-VERSION_ID=2024
-PRETTY_NAME="ApexOS 2024 (Development Edition)"
+VERSION_ID=24.07
+PRETTY_NAME="ApexOS 24.07 LTS"
 #LOGO=penguin
 HOME_URL="https://vortexcloud.fossa-atria.ts.net/wiki/apexos"
 DOCUMENTATION_URL="https://vortexcloud.fossa-atria.ts.net/wiki/apexos/about"
 SUPPORT_URL="https://vortexcloud.fossa-atria.ts.net/discord.html"
-VARIANT="Development Edition"
-VARIANT_ID=development
