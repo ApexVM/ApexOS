@@ -21,6 +21,15 @@ If you want to try ApexOS in **VM** environment, you need to run installer in VM
 ### Installing ApexOS on containers (Proot, Chroot)
 Currently you can install ApexOS on any container as if it was our instance. ApexOS installer edits some system files so if your VPS provider can see logs, you better don't install it.
 
+To install it simply run installer
+```
+
+```
+
+**You'll have to provide a valid license to use this operating system.**
+
+***If you provided correct license and you get the error "LICENSE_NOT_VALID", please contact me as it is common issue in ApexOS 24.07, I'm working on fix in ApexOS 24.08***
+
 **WARNING: We are not responsible for any data loss, account ban etc by using ApexOS on containers, this also includes other projects (Apex Minecraft server) and bypassing system security.**
 
 ### Installing packages
