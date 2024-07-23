@@ -16,7 +16,8 @@ wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/os-release
 sudo mv /etc/os-release /usr/local/etc/apexos/oldos/osprops
 sudo mv /etc/lsb-release /usr/local/etc/apexos/oldos/lsbres
 g++ vpkg.cxx -o vpkg
-sudo mv vpkg /usr/local/bin/ && sudo chmod 777 /usr/local/bin/vpkg
+sudo mv vpkg /usr/local/bin/vpkg
+sudo chmod 777 /usr/local/bin/vpkg
 sudo mv os-release /etc/os-release
 sudo mv lsb-release /etc/lsb-release
 clear
