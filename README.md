@@ -23,7 +23,7 @@ Currently you can install ApexOS on any container as if it was our instance. Ape
 
 To install it simply run installer
 ```
-
+wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/installer.sh && bash installer.sh
 ```
 
 **You'll have to provide a valid license to use this operating system.**
