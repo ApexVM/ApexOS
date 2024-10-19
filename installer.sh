@@ -1,6 +1,6 @@
 # The direct flasher to install ApexOS - the hard way
 
-# Depences
+# Dependences
 OS_BIN_DIR=/usr/local/bin
 OS_ETC_DIR=/usr/local/etc
 
@@ -9,6 +9,7 @@ echo "[WARN] This will flash ApexOS to your device."
 echo "Waiting 5 seconds before continuing..."
 sleep 5
 clear
+sudo mkdir /usr/local/etc/apexos/
 sudo mkdir /usr/local/etc/apexos/oldos/
 echo "Installing to $OS_BIN_DIR"
 wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/vpkg.cxx
@@ -23,5 +24,7 @@ sudo mv lsb-release /etc/lsb-release
 clear
 echo "The base instalation is done"
 echo "You can install packages with vpkg"
+sleep 2
+clear
 echo "Welcome to ApexOS 24.07"
-# I need to get all scripts and test them :3
+sudo touch /usr/local/etc/apexos/license.txt
