@@ -1,4 +1,6 @@
-# ApexOS
+# THE PROJECT IS OFFICALY ARCHIVED THANKS TO VMUSER... GOODBYE...
+
+## ApexOS
 Easy to use, open source, APT-based Linux operating system (WIP)
 
 ### OS compatibility
