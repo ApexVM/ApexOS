@@ -1,4 +1,4 @@
-# ApexOS 24.1 soon.
+# ApexOS 24.10 soon.
 
 ## ApexOS
 Easy to use, open source, APT-based Linux operating system (WIP)
