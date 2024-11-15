@@ -1,4 +1,7 @@
-# ApexOS 24.10 soon.
+# ApexOS 24.10 Dev.
+
+# I've ditched C++ in order to use Python.
+# This release includes development versions of graphical apps.
 
 ## ApexOS
 Easy to use, open source, APT-based Linux operating system (WIP)
