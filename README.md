@@ -56,6 +56,8 @@ vpkg flash package.deb
 ```
 This command flashes the package.deb to your system. 
 
+If you're not familiar with Linux terminal, please install this release and use **Package Manager** to manage your packages. All you have to do is type the package name and hit **Install**! Yeah, Linux can be easy!
+
 **WARNING: Flashing untrusted packages may render your system unstable or you may install viruses! Please verify source of package. (however Linux doesn't have malware...)**
 
 ### Using desktop environments
@@ -77,6 +79,8 @@ This will install XFCE4 to your system.
 ```
 sudo vpkg install xubuntu-desktop
 ```
+
+**You can also use Package Manager for this**
 
 ### Using web browsers, streaming apps etc.
 We've created special CDN for web browsers in ApexOS due to system restrictions starting from Ubuntu 20.04 (SnapD isn't working inside container environment).
