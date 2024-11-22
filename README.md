@@ -17,7 +17,7 @@ Recommended system requirements: Ubuntu 22.04, Debian 12
 You only need 512 megabytes of RAM to run ApexOS base! But to run desktop environments (yes, they are modded too) you need 2048 megabytes of RAM. 
 
 ### Running it on VM
-ApexOS is cross-platform system and a disk image... But where? Of course only in ApexVM as we control those systems and it is just a copy of ApexOS container running in Proot systems so no! It isn't even running as container on AMD64 systems.
+ApexOS is cross-platform system. You can run it on almost anything (can runs Linux kernel).
 
 If you want to try ApexOS in **VM** environment, you need to run installer in VM mode. Then let it do its magic and reboot your VM.
 
@@ -33,7 +33,7 @@ wget https://raw.githubusercontent.com/ApexVM/ApexOS/main/installer.sh && bash i
 
 **You'll have to provide a valid license to use this operating system.**
 
-***If you provided correct license and you get the error "LICENSE_NOT_VALID", please contact me as it is common issue in ApexOS 24.07, I'm working on fix in ApexOS 24.08***
+***If you provided correct license and you get the error "LICENSE_NOT_VALID", please contact me as it is common issue in ApexOS 24.07, I'm working on fix in ApexOS 24.08. EDIT: This has been fixed in ApexOS dev. Please use the activation app.***
 
 **WARNING: We are not responsible for any data loss, account ban etc by using ApexOS on containers, this also includes other projects (Apex Minecraft server) and bypassing system security.**
 
